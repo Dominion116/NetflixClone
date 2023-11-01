@@ -4,7 +4,7 @@ body{
     padding: 0px;
     border-style: none;
     box-sizing: unset;
-}
+  }
 
 .firstSection{
     background-image: url(/img/NG-en-20231023-popsignuptwoweeks-perspective_alpha_website_small.jpg);
@@ -15,14 +15,32 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
 
-}
+  }
 .logo {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 120px;
     padding: 10px;
-}
+  }
 .logo img {
-    max-height: 100px;
+    max-height: 85px;
     max-width: 100%; 
   }
+.butt {
+    position: absolute;
+    top: 28px;
+    right: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    background-color: #E50914;
+    color: white;
+    height: auto;
+    padding: 9px 20px 9px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.butt :hover {
+    background-color: darkred;
+    color: white;
+}
