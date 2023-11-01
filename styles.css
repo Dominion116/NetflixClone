@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-style: none;
+    box-sizing: unset;
+}
+
+.firstSection{
+    background-image: url(/img/NG-en-20231023-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.logo img {
+    max-height: 100px;
+    max-width: 100%; 
+  }
